@@ -59,7 +59,7 @@ for (let i = 0; i < menuItemsBox.length; i++) {
             getName.innerHTML = menuName[i].innerHTML;
             // header displays when the onclick event is activated
             menuHeader.style.display = 'flex';
-            window.scrollTo({ top: 0, behavior: 'smooth' });
+            window.scrollTo(0, 100);
         }
     })(i);
 }

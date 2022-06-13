@@ -16,7 +16,6 @@
 }
 
 body {
-    overflow-x: hidden;
     background-color: rgb(250, 250, 250);
 }
 
@@ -30,7 +29,7 @@ h3 {
 }
 
 p {
-    font-size: 1.7em;
+    font-size: 1.5em;
     line-height: 1.3em;
 }
 
@@ -92,7 +91,7 @@ main {
 }
 
 .footer__image {
-    background-image: url(../imgs/logo2.png);
+    background-image: url(../imgs/logo.png);
     width: 5em;
     height: 5em;
     background-size: cover;
@@ -119,18 +118,19 @@ main {
 /* navbar styling starts here */
 
 .nav {
-    position: relative;
+    display: flex;
     z-index: 999;
-    background-color: white;
-    box-shadow: 0 0px 3px 0.5px rgb(122, 122, 122);
+    max-width: 84rem;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .nav .content {
-    max-width: 84rem;
+    width: 100%;
+    height: 6rem;
     padding: 0.5rem 2rem;
     font-weight: 900;
-    background-color: white;
-    z-index: 999;
+    z-index: 998;
 }
 
 .nav img {
@@ -215,9 +215,9 @@ main {
 }
 
 .nav__tab-open {
-    position: absolute;
+    position: fixed;
     display: flex;
-    top: 100%;
+    top: 6rem;
     right: -100%;
     height: 100vh;
     background-color: white;
@@ -245,7 +245,7 @@ main {
     position: fixed;
     display: none;
     left: 0;
-    top: 0;
+    top: 6rem;
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.521);
@@ -861,7 +861,7 @@ aside .content {
 }
 
 .reward__card-grid span:nth-child(1) {
-    background-image: url(../imgs/logo2.png);
+    background-image: url(../imgs/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -871,7 +871,7 @@ aside .content {
 }
 
 .reward__coupon-box--2 .reward__card-grid span {
-    background-image: url(../imgs/logo2.png);
+    background-image: url(../imgs/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
