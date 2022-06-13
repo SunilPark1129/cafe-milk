@@ -252,6 +252,22 @@ main {
     z-index: -2;
 }
 
+.nav__tab-open--active {
+    right: 0;
+}
+
+.display-block {
+    display: block;
+}
+
+
+/* prevent scrolling when the nav tab is actived */
+
+.prevent-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
 
 /* home styling starts here */
 
