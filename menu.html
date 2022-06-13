@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CafeMilk</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header>
+        <nav class="nav">
+            <div class="content">
+                <a href="index.html"><img class="logo" src="imgs/logo.png" alt=""></a>
+                <div class="nav__links">
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="#">MENU</a></li>
+                        <li><a href="reward.html">REWARDS</a></li>
+                    </ul>
+                    <a href="https://goo.gl/maps/qboDSwF8auV7j1wt7">FIND A STORE</a>
+                </div>
+                <div class="nav__tab">
+                    <div class="nav__tab-icon-box">
+                        <div class="nav__tab-icon nav__tab-icon-0"></div>
+                        <div class="nav__tab-icon nav__tab-icon-1"></div>
+                        <div class="nav__tab-icon nav__tab-icon-2"></div>
+                    </div>
+                </div>
+                <div class="nav__tab-open">
+                    <div class="nav__tab-links">
+                        <a href="index.html">HOME</a>
+                        <a href="#">MENU</a>
+                        <a href="reward.html">REWARDS</a>
+                    </div>
+                    <a href="https://goo.gl/maps/qboDSwF8auV7j1wt7">FIND A STORE</a>
+                </div>
+                <span class="nav__tab-close"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="menu">
+        <aside>
+            <div class="menu__aside">
+                <h2>
+                    SELECT CHOICE
+                </h2>
+                <div class="content">
+                    <div class="menu__option menu__aside-all">ALL</div>
+                    <div class="menu__option menu__aside-sweets">SWEETS</div>
+                    <div class="menu__option menu__aside-sour">SOUR</div>
+                    <div class="menu__option menu__aside-bitter">BITTER</div>
+                    <div class="menu__option menu__aside-fruit">FRUIT</div>
+                    <div class="menu__option menu__aside-chocolate">CHOCOLATE</div>
+                    <div class="menu__option menu__aside-espresso">ESPRESSO</div>
+                    <div class="menu__option menu__aside-milk">MILK</div>
+                    <div class="menu__option menu__aside-water">WATER</div>
+                </div>
+            </div>
+        </aside>
+
+        <main>
+            <header>
+                <div class="menu__header">
+                    <div id="menu__header__image-box">
+                        <div id="menu__header__image"></div>
+                    </div>
+                    <div class="menu__header__text-box">
+                        <div class="menu__header__text">
+                            <h4>Drink</h4>
+                            <div id="menu__header__name"></div>
+                        </div>
+                        <div class="menu__header__text">
+                            <h4>Calories</h4>
+                            <div id="menu__header__calories"></div>
+                        </div>
+                        <div class="menu__header__text">
+                            <h4>Price</h4>
+                            <div id="menu__header__price"></div>
+                        </div>
+                        <div class="menu__header__text">
+                            <h4>Description</h4>
+                            <div id="menu__header__description"></div>
+                        </div>
+                    </div>
+                    <div class="menu__close-box">
+                        <div class="menu__close"></div>
+                        <div class="menu__close"></div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="menu__main">
+                <div class="content">
+
+                    <!------------------------------------ coffee ------------------------------------>
+                    <h2>COFFEE</h2>
+                    <div class="menu__item-bundle">
+                        <div class="menu__item-box menu__all menu__bitter menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--18"></div>
+                            </div>
+                            <p class="name">Coffee</p>
+                            <div class="calories" value="5"></div>
+                            <div class="drink-text">
+                                It is served by mixing coffee and hot/iced water. Start and end your day with coffee. If you would like it sweeter, please tell the staff.
+                            </div>
+                            <div class="price" value="$1.25"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__bitter menu__espresso menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--9"></div>
+                            </div>
+                            <p class="name">Americano</p>
+                            <div class="calories" value="15"></div>
+                            <div class="drink-text">
+                                It is served by mixing espresso and hot/iced water. If you have a busy day, how about taking a break while drinking an Americano?
+                            </div>
+                            <div class="price" value="$2.25"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__espresso menu__milk">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--17"></div>
+                            </div>
+                            <p class="name">Latte</p>
+                            <div class="calories" value="190"></div>
+                            <div class="drink-text">
+                                It is served by mixing espresso and steamed/iced milk with sugar. Enjoy the day calmly with a latte.
+                            </div>
+                            <div class="price" value="$3.25"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__chocolate menu__espresso menu__milk">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--3"></div>
+                            </div>
+                            <p class="name">Mocha</p>
+                            <div class="calories" value="370"></div>
+                            <div class="drink-text">
+                                It is served by mixing espresso, chocolate and steamed/iced milk. Enjoy the sweetness of espresso and chocolate.
+                            </div>
+                            <div class="price" value="$3.75"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__bitter menu__espresso menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--19"></div>
+                            </div>
+                            <p class="name">Espresso</p>
+                            <div class="calories" value="10"></div>
+                            <div class="drink-text">
+                                It is served by mixing solo espresso and a small cup of hot/iced water. Enjoy the bitter taste of traditional espresso.
+                            </div>
+                            <div class="price" value="$1.25"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__espresso menu__milk">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--16"></div>
+                            </div>
+                            <p class="name">Cappuccino</p>
+                            <div class="calories" value="190"></div>
+                            <div class="drink-text">
+                                It is served by mixing espresso and steamed/iced milk with sugar. The soft foam of the cappuccino will calm your mind.
+                            </div>
+                            <div class="price" value="$3.25"></div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------ tea ------------------------------------>
+                    <h2>TEA</h2>
+                    <div class="menu__item-bundle">
+                        <div class="menu__item-box menu__all menu__sweets menu__milk">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--15"></div>
+                            </div>
+                            <p class="name">GreenTea</p>
+                            <div class="calories" value="200"></div>
+                            <div class="drink-text">
+                                It is served by mixing GreenTea and steamed/iced milk. This is the drink most ordered by customers. It's a choice you won't regret.
+                            </div>
+                            <div class="price" value="$4.25"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--21"></div>
+                            </div>
+                            <p class="name">MilkTea</p>
+                            <div class="calories" value="145"></div>
+                            <div class="drink-text">
+                                It is served by mixing black tea and hot/iced water. If your day is boring, drink milk tea to solve your problems. If you would like it sweeter, please tell the staff.
+                            </div>
+                            <div class="price" value="$4.25"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sour menu__fruit menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--7"></div>
+                            </div>
+                            <p class="name">Iced Mango</p>
+                            <div class="calories" value="180"></div>
+                            <div class="drink-text">
+                                It is served by mixing fresh mango and iced water. Do you like sour taste? Then you have chosen well.
+                            </div>
+                            <div class="price" value="$4.25"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__milk">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--8"></div>
+                            </div>
+                            <p class="name">Iced Peach</p>
+                            <div class="calories" value="70"></div>
+                            <div class="drink-text">
+                                It is served by mixing fresh peach and iced water. Feel the unique aroma and taste that only peaches can produce.
+                            </div>
+                            <div class="price" value="$4.25"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sour menu__fruit menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--14"></div>
+                            </div>
+                            <p class="name">Iced Orange</p>
+                            <div class="calories" value="110"></div>
+                            <div class="drink-text">
+                                It is served by mixing fresh orange and iced water. A sour orange is always right. We recommend it to anyone who likes sour taste.
+                            </div>
+                            <div class="price" value="$4.25"></div>
+                        </div>
+                    </div>
+
+                    <!------------------------------------ smoothie ------------------------------------>
+                    <h2>SMOOTHIE</h2>
+                    <div class="menu__item-bundle">
+                        <div class="menu__item-box menu__all menu__sweets menu__chocolate menu__milk">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--13"></div>
+                            </div>
+                            <p class="name">Chocolate</p>
+                            <div class="calories" value="480"></div>
+                            <div class="drink-text">
+                                It is served by mixing sweet chocolate and iced milk. Enjoy the sweetness of chocolate. Don't worry, it's moderately sweet.
+                            </div>
+                            <div class="price" value="$4.50"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__fruit menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--1"></div>
+                            </div>
+                            <p class="name">Strawberry</p>
+                            <div class="calories" value="380"></div>
+                            <div class="drink-text">
+                                It is served by mixing fresh strawberry and iced water. Are you looking for something refreshing and sweet? We have a strawberry smoothie.
+                            </div>
+                            <div class="price" value="$4.50"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__fruit menu__milk">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--4"></div>
+                            </div>
+                            <p class="name">Pistachio</p>
+                            <div class="calories" value="420"></div>
+                            <div class="drink-text">
+                                It is served by mixing chopped nuts and iced milk. We cut it into small pieces and made our own powder, so you can taste the good quality.
+                            </div>
+                            <div class="price" value="$4.50"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__milk">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--2"></div>
+                            </div>
+                            <p class="name">GreenTea</p>
+                            <div class="calories" value="420"></div>
+                            <div class="drink-text">
+                                It is served by mixing GreenTea and iced milk. Green tea smoothie loved by our customers the most.
+                            </div>
+                            <div class="price" value="$4.50"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__milk">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--24"></div>
+                            </div>
+                            <p class="name">Taro</p>
+                            <div class="calories" value="420"></div>
+                            <div class="drink-text">
+                                It is served by mixing taro and iced milk. It's not a familiar name, so you haven't tried tarot yet? Taro can be called the origin of smoothies. Try it today.
+                            </div>
+                            <div class="price" value="$4.50"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sweets menu__fruit menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--5"></div>
+                            </div>
+                            <p class="name">Mango</p>
+                            <div class="calories" value="320"></div>
+                            <div class="drink-text">
+                                It is served by mixing fresh mango and iced water. Mango won't make you regret it. Make wise choices.
+                            </div>
+                            <div class="price" value="$4.50"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sour menu__fruit menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--11"></div>
+                            </div>
+                            <p class="name">Kiwi</p>
+                            <div class="calories" value="300"></div>
+                            <div class="drink-text">
+                                It is served by mixing fresh kiwi and iced water. Isn't kiwi the representative of sour taste among fruits? Recommended for those who like sour taste.
+                            </div>
+                            <div class="price" value="$4.50"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sour menu__fruit menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--12"></div>
+                            </div>
+                            <p class="name">Blueberry</p>
+                            <div class="calories" value="340"></div>
+                            <div class="drink-text">
+                                It is served by mixing fresh blueberry and iced water. We grind our own blueberries instead of powder to ensure better aroma and taste.
+                            </div>
+                            <div class="price" value="$4.50"></div>
+                        </div>
+                        <div class="menu__item-box menu__all menu__sour menu__fruit menu__water">
+                            <div class="menu__item">
+                                <div class="menu__item__image menu__item__image--22"></div>
+                            </div>
+                            <p class="name">Watermelon</p>
+                            <div class="calories" value="350"></div>
+                            <div class="drink-text">
+                                It is served by mixing fresh watermelon and iced water. How about a refreshing day with watermelon? Spend the day with a moderate sweetness and refreshing taste.
+                            </div>
+                            <div class="price" value="$4.50"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="content">
+            <div class="footer__box">
+                <div class="footer__header">
+                    <a href="index.html">
+                        <div class="footer__image-box">
+                            <div class="footer__image"></div>
+                        </div>
+                        <h4>Cafe Milk</h4>
+                    </a>
+                </div>
+                <div class="footer__text-box">
+                    <p>
+                        Cafe Milk always strives to satisfy customers by using only high-quality ingredients to provide only good drinks. We serve coffee, tea and smoothies and treat you with friendly manners. We look forward to your visit.
+                    </p>
+                </div>
+            </div>
+            <div class="footer__box">
+                <div class="footer__header">
+                    <h4>Quick Links</h4>
+                </div>
+                <div class="footer__text-box">
+                    <a href="index.html">Main Page</a>
+                    <a href="menu.html">Menu - Drinks</a>
+                    <a href="reward.html#coupon">Reward - Coupon</a>
+                    <a href="reward.html#event">Event - Birthday</a>
+                </div>
+            </div>
+            <div class="footer__box">
+                <div class="footer__header">
+                    <h4>Service</h4>
+                </div>
+                <div class="footer__text-box">
+                    <p>Table in side</p>
+                    <p>USB Charging available</p>
+                    <p>Parking lot is provided</p>
+                </div>
+            </div>
+            <div class="footer__box">
+                <div class="footer__header">
+                    <h4>Contact</h4>
+                </div>
+                <div class="footer__text-box">
+                    <p>Rt-70 at South Washington Ave, Cherry Hill, NJ 08002</p>
+                    <p>609) 223-4532</p>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">© COPYRIGHT CAFE MILK CHERRY HILL NJ - 2021</div>
+    </footer>
+
+    <script src="scripts/nav.js"></script>
+    <script src="scripts/menu.js"></script>
+</body>
+
+</html>
