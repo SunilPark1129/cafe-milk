@@ -1,4 +1,6 @@
 # Cafe Milk
+![aside menu - Copy](https://user-images.githubusercontent.com/106734133/173830870-d24206bd-ffd4-4a69-99dd-2a52a2568123.jpg)
+
 Check preview website - [Link](https://sunilpark1129.github.io/cafe-milk/)
 ### Project Description
 The Cafe Milk website provides information on various drinks and provides information on events and announcements about Cafe Milk.
@@ -12,7 +14,8 @@ The Cafe Milk website provides information on various drinks and provides inform
 |Description Onclick|<img src="https://user-images.githubusercontent.com/106734133/173441317-219774c0-9ee6-4408-952c-5a83c6e9f6b7.jpg" height="400"><br>When a drink is clicked, all values in the class are called and information about the drink is displayed on the screen.|
 |Stamp Card Styling|<img src="https://user-images.githubusercontent.com/106734133/173441491-3377139d-d539-4d5d-88ab-000e4345e3fe.jpg" height="400"><br>Stamp cards excluding logos were created using only pure css.|
 ### Lacking Point
-I had trouble deciding on a class name. I feel the need to further consider and improve naming practices.
+1. I had trouble deciding on a class name. I feel the need to further consider and improve naming practices.
+2. I need to pay more attention to css styling to develop myself. For example, I need to add more animation effect elements.
 ### Tech
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ### Installation
